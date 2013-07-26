@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* --------------------------  
+Version: 1.1
+Modified Date: 6.23.08
+------------------------------ */
+
+
+/* -----------------------------
+   STANDARD HTML TAG RESET   
+-------------------------------- */
+
+body,
+h1, h2, h3,
+p, ul, li,
+form {
+	border:0;
+	margin:0px;
+	padding:0px;
+	background-image:url(../images/bg.jpg);
+	background-repeat:repeat-x;
+}
+
+/* -----------------------------
+   STANDARD HTML TAG DEFINITION
+-------------------------------- */
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+img {
+    border: none;
+}
+
+
+/* --------------------------- 
+   PAGE ELEMENTS 
+------------------------------ */
+
+.clear {
+	clear:both;
+}
+
+	
+	/* -----------------------------
+	   MAIN NAVIGATION                  */
+	
+	.nav_container {
+	margin:0 auto;
+	width: 900px;
+	padding-top:160px;
+	
+}
+	#navMenu{
+	display: inline;
+	margin: 0;
+	padding: 0px;
+	position: relative;
+	z-index: 5;
+}
+#navMenu li{
+	float: left;
+	display: inline;
+}
+#navMenu li.first{
+	float: left;
+	display: inline;
+	background: url("../images/left_nav.jpg");
+	width:36px;
+	height:58px;
+}
+#navMenu li.last{
+	float: left;
+	display: inline;
+	background: url("../images/right_nav.jpg");
+	width:37px;
+	height:58px;
+}
+
+a.navAbout, a.navAbout_a{
+	display:block;
+	float:left;
+	width:148px;
+	height:58px;
+	background: url("../images/about_button.jpg");
+	background-repeat:no-repeat;
+}
+a.navAbout:hover{
+
+	background: url("../images/about_button.jpg") 0 116px;
+}
+a.navAbout_a{
+
+	background: url("../images/about_button.jpg") 0 58px;
+}
+
+a.navServices, a.navServices_a{
+	display:block;
+	float:left;
+	width:175px;
+	height:58px;
+	background: url("../images/services_button.jpg");
+	background-repeat:no-repeat;
+}
+a.navServices:hover{
+	background: url("../images/services_button.jpg") 0 116px;
+}
+a.navServices_a{
+
+	background: url("../images/services_button.jpg") 0 58px;
+}
+
+a.navPortfolio, a.navPortfolio_a{
+	display:block;
+	float:left;
+	width:180px;
+	height:58px;
+	background: url("../images/portfolio_button.jpg");
+	background-repeat:no-repeat;
+}
+a.navPortfolio:hover{
+	background: url("../images/portfolio_button.jpg") 0 116px;
+}
+a.navPortfolio_a{
+	background: url("../images/portfolio_button.jpg") 0 58px;
+}
+a.navBlog, a.navBlog_a{
+	display:block;
+	float:left;
+	width:157px;
+	height:58px;
+	background: url("../images/blog_button.jpg");
+	background-repeat:no-repeat;
+}
+a.navBlog:hover{
+	background: url("../images/blog_button.jpg") 0 116px;
+}
+a.navBlog_a{
+	background: url("../images/blog_button.jpg") 0 58px;
+}
+
+a.navContact, a.navContact_a{
+	display:block;
+	float:left;
+	width:167px;
+	height:58px;
+	background: url("../images/contact_button.jpg");
+	background-repeat:no-repeat;
+}
+a.navContact:hover{
+
+	background: url("../images/contact_button.jpg") 0 116px;
+}
+a.navContact_a{
+
+	background: url("../images/contact_button.jpg") 0 58px;
+}
+	
+	
