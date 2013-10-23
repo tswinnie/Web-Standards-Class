@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects Page</title>
+    <link rel="stylesheet" type="text/css" href="css/tabulous.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+
+
+    <script>
+
+        $(document).ready(function ($) {
+
+            $('#tabs4').tabulous({effect: 'flip');
+            console.log('test');
+
+        });
+
+
+    </script>
+</head>
+<body>
+
+<!--End of header section -->
+
+<div id ="container">
+
+<!--This is the beginning of the header section-->
+<header>
+
+    <h3 id = "login"><div class ="text">Logout</div></h3>
+
+
+
+    <h1 id ="logo">Logo</h1>
+
+    <!--welcome user -->
+
+    <a href ="#"><h3 class="welcome">Welcome User</h3></a>
+
+
+    <a href ="#"><h3 class="account">My Account</h3></a>
+
+    <a href ="#"><h3 class="project">Projects</h3></a>
+
+
+
+
+
+
+
+</header>
+
+
+
+
+
+    <!--start of box_1.1-->
+
+<div id = "box1_2">
+
+     <div id="leftBox">
+    <p id="editProjectP">Create A New Project</p>
+    <form id = "projectEdit">
+        <p id ="nameP">Project Name:</p> <input id="projectName"  type="text" name="project name"><br>
+        <p id ="descP">New Project Description:</p><textarea rows="8" cols="35"></textarea><br>
+        <p id ="date3">Date Due:</p><input id ="projectDate" type="date" name="date">
+
+        <p id="priority3">Project Priority:</p>
+
+        <select id ="projectPriority">
+            <option value="high">High</option>
+            <option value="moderate">Moderate</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+        </select>
+
+
+    </form>
+         </div>
+
+
+
+        <div id="rightBox">
+        <p id="editProjectPR">Create A New Task</p>
+            <form id = "projectEdit">
+                <p id ="nameP">Task Name:</p> <input id="projectNameR"  type="text" name="project name"><br>
+                <p id ="descP">New Task Description:</p><textarea rows="8" cols="35"></textarea><br>
+                <p id ="date3">Date Due:</p><input id ="projectDateR" type="date" name="date">
+
+                <p id="priority3">Task Priority:</p>
+
+                <select id ="projectPriorityR">
+                    <option value="high">High</option>
+                    <option value="moderate">Moderate</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+
+
+            </form>
+
+            <div id ="addProR"><p id="addTextR">Submit</p></div>
+            <!--<div id ="addTaskL"><p id="addTextL">Done</p></div>-->
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div><!--end of box_1-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--This is the beginning of the footer section-->
+<footer><p id ="footerText">This Site Was Developed By Tyrone Swinnie</p></footer>
+
+</div>
+
+
+<!--end of container-->
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/tabulous.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+
+</body>
+</html>

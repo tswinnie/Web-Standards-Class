@@ -1,0 +1,2275 @@
+/* Don't forget to include a CSS reset file otherwise it might look a little bit strange*/
+a:active,a:focus {
+	outline: expression(hideFocus='true');
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+#tabs,#tabs2,#tabs3,#tabs4,#tabs5 {
+	margin: 0 auto;
+	margin-bottom: 40px;
+    background-color: white;
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    height: 100px;
+
+
+
+}
+
+#tabs li,#tabs2 li,#tabs3 li,#tabs5 li {
+	float: left;
+	margin-right: 2px;
+    margin-left: 10px;
+
+}
+
+#tabs li, #tabs4 li{
+
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+
+
+
+
+}
+
+#tabs li, #tabs2 li{
+
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    clear: right;
+
+
+
+}
+#tabs li, #tabs3 li{
+
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    clear: right;
+
+
+
+}
+
+#tabs li, #tabs5 li{
+
+    float: left;
+
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+
+
+
+}
+
+
+#tabs li, #tabs li{
+
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    clear: right;
+
+
+
+}
+
+
+
+
+#tabs2 li a,#tabs3 li a,#tabs5 li a {
+	display: block;
+	padding: 20px 10px;
+	background: #544f6b;
+	text-decoration: none;
+	color: #8478B3;
+    overflow:hidden;
+}
+
+#tabs li a, #tabs4 li a{
+
+    display: block;
+    padding: 20px 8px;
+    background: #2980b9;
+    text-decoration: none;
+    color: white;
+    width: 57.3px;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+
+
+}
+
+
+#tabs li a, #tabs2 li a{
+
+    display: block;
+    padding: 20px 8px;
+    background: #e67e22;
+    text-decoration: none;
+    color: white;
+    width: 123.9px;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+
+
+}
+#tabs li a, #tabs3 li a{
+
+
+    display: block;
+    padding: 20px 8px;
+    background: #2980b9;
+    text-decoration: none;
+    color: white;
+    width: 50.6px;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+
+}
+
+
+
+#tabs li a, #tabs li a{
+
+
+    display: block;
+    padding: 20px 8px;
+    background:#e67e22;
+    text-decoration: none;
+    color: white;
+    width: 57.3px;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+
+}
+
+
+
+
+
+#tabs li a:hover,#tabs2 li a:hover,#tabs3 li a:hover,#tabs4 li a:hover,#tabs5 li a:hover {
+	background: rgb(230, 126, 34);
+}
+
+#tabs li a:hover{
+    background: rgb(175, 91, 28);
+
+
+
+}
+#tabs3 li a:hover{
+    background: rgb(34, 100, 137);
+
+
+
+}
+#tabs2 li a:hover{
+    background: rgb(175, 91, 28);
+
+
+
+}
+#tabs4 li a:hover{
+    background: rgb(34, 100, 137);
+
+
+
+}
+
+
+#tabs_container {
+	padding: 25px;
+	overflow: hidden;
+	position: relative;
+	background: green;
+}
+
+#tabs4 #tabs_container {
+    padding: 40px;
+    overflow: scroll;
+    position: relative;
+    background: white;
+
+
+}
+
+#tabs #tabs_container {
+    padding: 40px;
+    overflow: scroll;
+    position: relative;
+    background: white;
+
+}
+
+#tabs2 #tabs_container {
+    padding: 40px;
+    overflow: scroll;
+    position: relative;
+    background: white;
+
+
+}
+
+#tabs3 #tabs_container {
+    padding: 20px;
+    overflow: scroll;
+    position: relative;
+    background: white;
+
+
+}
+
+#tabs_container div {
+	margin-right: 40px;
+
+
+
+}
+#tabs4 #tabs_container div{
+
+    height: 125px;
+
+
+
+}
+
+#tabs3 #tabs_container div{
+
+    height: 435px;
+
+}
+
+#tabs #tabs_container div{
+
+    height: 125px;
+
+
+}
+
+.transition {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+
+	-webkit-transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	-ms-transition-delay: .3s;
+	transition-delay: .3s;
+}
+
+.make_transist {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.hidescale {
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-o-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.showscale {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+
+	-webkit-transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	-ms-transition-delay: .3s;
+	transition-delay: .3s;
+}
+
+.hideleft {
+	-webkit-transform: translateX(-100%);
+	-moz-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	transform: translateX(-100%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.showleft {
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+
+	-webkit-transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	-ms-transition-delay: .3s;
+	transition-delay: .3s;
+}
+
+.hidescaleup {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.showscaleup {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+
+	-webkit-transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	-ms-transition-delay: .3s;
+	transition-delay: .3s;
+}
+
+.hideflip {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+
+	-webkit-transform: rotatey(-90deg) scale(1.1);
+	-moz-transform: rotatey(-90deg) scale(1.1);
+	-o-transform: rotatey(-90deg) scale(1.1);
+	-ms-transform: rotatey(-90deg) scale(1.1);
+	transform: rotatey(-90deg) scale(1.1);
+
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.showflip {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+
+	-webkit-transition-delay: .3s;
+	-moz-transition-delay: .3s;
+	-o-transition-delay: .3s;
+	-ms-transition-delay: .3s;
+	transition-delay: .3s;
+
+	-webkit-transform: rotatey(0deg) scale(1);
+	-moz-transform: rotatey(0deg) scale(1);
+	-o-transform: rotatey(0deg) scale(1);
+	-ms-transform: rotatey(0deg) scale(1);
+	transform: rotatey(0deg) scale(1);
+
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.tabulous_active  {
+	background: white !important;
+	color: #655c89 !important;
+
+
+}
+
+
+
+.tabulousclear {
+	display: block;
+	clear: both;
+}
+
+#tabs4{
+
+    width: 220px;
+    margin-left: 10px;
+    margin-top: 15px;
+    clear: right;
+
+
+}
+
+#tabs{
+
+    width: 220px;
+    margin-left: 10px;
+    margin-top: 15px;
+    clear: right;
+    position: relative;
+    top: 115px;
+
+}
+
+#tabs2{
+
+
+    width: 420px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 9;
+
+
+}
+
+#tabs3{
+
+    width: 200px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+
+
+#push{
+
+    margin-left: 70px;
+
+
+
+}
+
+#tabs4 .tabTitle {
+
+    color: #2980b9;
+    margin-top: -20px;
+    margin-left: 9px;
+    font:  18px/25px "Helvetica Neue", san-serif;
+
+}
+
+#tabs4 #PD{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs4 #DD{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs4 #PP{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs4 #editProject{
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: #2980b9;
+
+
+
+
+}
+
+#tabs4 #name{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9
+
+
+}
+#tabs4 #date{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9
+
+
+}
+#tabs4 #priority{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9
+
+
+}
+
+#tabs4 #desc{
+
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9 ;
+    margin: 0;
+
+
+}
+
+/*----------------------this is the beginning of second project------------------------*/
+
+#tabs2 .tabTitle {
+
+    color: #2980b9;
+    margin-top: -20px;
+    margin-left: 9px;
+    font:  18px/25px "Helvetica Neue", san-serif;
+
+}
+
+#tabs2 #PD{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs2 #DD{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs2 #PP{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs2 #editProject{
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: #2980b9;
+    padding-bottom: 30px;
+    margin: 0 auto;
+
+
+
+
+}
+
+#tabs2 #name{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9 ;
+    margin: 0 auto;
+
+
+}
+
+#tabs2 #desc{
+
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9 ;
+    margin: 0;
+
+
+}
+#tabs2 #date{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9
+
+
+}
+#tabs2 #priority{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9
+
+
+}
+
+/*----------------------this is the beginning of third project------------------------*/
+
+#tabs3 .tabTitle {
+
+    color: #2980b9;
+    margin-top: -20px;
+    margin-left: 9px;
+    font:  18px/25px "Helvetica Neue", san-serif;
+
+}
+
+#tabs3 #PD{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs3 #DD{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs3 #PP{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs3 #editProject{
+    font:  15px/15px "Helvetica Neue", san-serif;
+    color: #2980b9;
+    padding-bottom: 30px;
+    margin: 0 auto;
+
+
+
+
+}
+
+#tabs3 #name{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9 ;
+    margin: 0 auto;
+
+
+}
+
+#tabs3 #desc{
+
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9 ;
+    margin: 0;
+
+
+}
+#tabs3 #date{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9;
+
+
+}
+#tabs3 #priority{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9;
+
+
+}
+
+
+
+/*----------------------this is the beginning of fourth project------------------------*/
+
+
+#tabs .tabTitle {
+
+    color: #2980b9;
+    margin-top: -20px;
+    margin-left: 9px;
+    font:  18px/25px "Helvetica Neue", san-serif;
+
+}
+
+#tabs #PD{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs #DD{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs #PP{
+    color: #2980b9;
+    list-style-type: none;
+    font:  15px/15px "Helvetica Neue", san-serif;
+
+
+
+
+}
+
+#tabs #editProject{
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: #2980b9;
+
+
+
+
+}
+
+#tabs #name{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9
+
+
+}
+#tabs #date{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9
+
+
+}
+#tabs #priority{
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9
+
+
+}
+
+#tabs #desc{
+
+    font:  14px/15px "Helvetica Neue", san-serif;
+
+    color: #2980b9 ;
+    margin: 0;
+
+
+}
+
+#addProject{
+    width: 419px;
+    height: 260px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: -4px;
+    background: url("../images/notebook.png")no-repeat;
+    /*opacity:0.6;*/
+    /*filter:alpha(opacity=40); *//* For IE8 and earlier */
+
+
+}
+#text1{
+    font:  30px/15px "Helvetica Neue", san-serif;
+     color: #2980b9 ;
+    font-weight: 200;
+    padding-left: 20px;
+    position: relative;
+    top: 30px;
+
+
+
+}
+#text2{
+    font:  14px/15px "Helvetica Neue", san-serif;
+    color: orange ;
+    font-weight: 200;
+    padding-left: 15px;
+    position: relative;
+    top: 40px;
+
+
+
+}
+#text3{
+    font:  14px/15px "Helvetica Neue", san-serif;
+    color: orange ;
+    font-weight: 200;
+    padding-left: 15px;
+    position: relative;
+    top: 50px;
+
+
+}
+
+#background{
+    width: 420px;
+    height: 262px;
+    background-color: white;
+    position: absolute;
+    bottom: -225px;
+    right: 347px;
+    z-index: 1 ;
+
+}
+
+#colorPencil{
+    position: relative;
+    top: -62px;
+    right: 230px;
+    z-index: 1;
+
+
+}
+
+#deleteText1{
+    font:  14px/15px "Helvetica Neue", san-serif;
+    color: orange ;
+    font-weight: 200;
+
+
+}
+#deleteText2{
+    font:  14px/15px "Helvetica Neue", san-serif;
+    color: orange ;
+    font-weight: 200;
+
+
+}
+#deleteText3{
+    font:  12px/15px "Helvetica Neue", san-serif;
+    color: orange ;
+    font-weight: 200;
+
+
+}
+#deleteText4{
+    font:  13px/15px "Helvetica Neue", san-serif;
+    color: orange ;
+    font-weight: 200;
+
+
+}
+
+#deleteYes1{
+
+    padding: 0;
+    margin: 0;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+    position: relative;
+    top: -50px;
+    right: -59px;
+
+
+
+}
+
+#deleteNo1{
+
+    padding: 0;
+    margin: 0;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+    position: relative;
+    top: -50px;
+    right: -59px;
+
+
+}
+
+#deleteYes2{
+
+    padding: 0;
+    margin: 0;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+    position: relative;
+    top: -50px;
+    right: -59px;
+
+
+
+}
+
+#deleteNo2{
+
+    padding: 0;
+    margin: 0;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+    position: relative;
+    top: -50px;
+    right: -59px;
+
+
+}
+
+#deleteYes3{
+
+    padding: 0;
+    margin: 0;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+    position: relative;
+    top: -50px;
+    right: -59px;
+
+
+
+}
+
+#deleteNo3{
+
+    padding: 0;
+    margin: 0;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+    position: relative;
+    top: -50px;
+    right: -59px;
+
+
+}
+
+#deleteYes4{
+
+    padding: 0;
+    margin: 0;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+    position: relative;
+    top: -50px;
+    right: -59px;
+
+
+
+}
+
+#deleteNo4{
+
+    padding: 0;
+    margin: 0;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+    position: relative;
+    top: -50px;
+    right: -59px;
+
+
+}
+
+#addPro{
+
+    position: relative;
+    top:479px;
+    right: -380px;
+    width: 220px;
+    height: 190px;
+    background: url('../images/button.png')no-repeat;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+
+
+}
+
+#addText{
+
+    position: relative;
+    top:-300px;
+    right: -39px;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+
+
+
+}
+
+#footerText{
+
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    padding-top: 5px;
+    text-align: center;
+    clear: both;
+
+
+
+}
+
+#leftBox{
+
+    width: 300px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 10px;
+
+}
+
+#rightBox{
+
+    width: 300px;
+    float: left;
+    margin-left: 170px;
+    margin-top: 10px;
+
+}
+
+ #projectName  {
+    width: 238px;
+
+
+}
+#projectDate  {
+    width: 100px;
+
+
+
+}
+
+#projectPriority  {
+    width: 100px;
+    position: relative;
+    top: -44px;
+    right: -137px;
+
+
+}
+
+#projectNameR  {
+    width: 238px;
+
+
+}
+#projectDateR  {
+    width: 100px;
+
+
+
+}
+
+#projectPriorityR  {
+    width: 100px;
+    position: relative;
+    top: -44px;
+    right: -137px;
+
+
+}
+
+#priority3{
+
+    font:  14px/15px "Helvetica Neue", san-serif;
+    color: #2980b9 ;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -45px;
+    right: -137px;
+
+
+
+}
+
+#date3{
+
+    font:  14px/15px "Helvetica Neue", san-serif;
+    color: #2980b9 ;
+    margin: 0;
+    padding-top: 30px;
+
+
+
+
+}
+
+#nameP{
+
+    font:  14px/15px "Helvetica Neue", san-serif;
+    color: #2980b9 ;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 75px;
+
+
+
+}
+#descP{
+
+    font:  14px/15px "Helvetica Neue", san-serif;
+    color: #2980b9 ;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 35px;
+
+
+}
+#editProjectP{
+    font:  18px/15px "Helvetica Neue", san-serif;
+    color: #2980b9 ;
+    padding-left: 40px;
+
+
+}
+
+#editProjectPR{
+    font:  18px/15px "Helvetica Neue", san-serif;
+    color: #2980b9 ;
+    padding-left: 40px;
+
+
+}
+
+#lineH{
+
+    position: relative;
+    top: -200px;
+}
+
+#addProR{
+
+    position: relative;
+    top:-19px;
+    right: -120px;
+    width: 220px;
+    height: 190px;
+    background: url('../images/button.png')no-repeat;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+
+
+}
+
+#addTextR{
+
+    position: relative;
+    top:10px;
+    right: -39px;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+
+
+
+}
+
+#lineR{
+
+
+
+
+}
+.etabs {
+    margin: 0;
+    padding: 0;
+    display: inline;
+
+}
+
+.etabs-two {
+    margin: 0;
+    padding: 0;
+    display: inline;
+
+}
+
+.etabs-three {
+    margin-top: 0;
+    padding: 0;
+    display: inline;
+
+}
+.etabs-four {
+    margin-top: 0;
+    padding: 0;
+    display: inline;
+
+}
+
+/**************************************************************/
+
+.tab {
+    position: relative;
+    top: 313px;
+    left: 10px;
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+    background: #2980b9;
+    width: 77.5px;
+    padding: 0;
+    margin-right: -10px;
+    box-shadow: 3px 10px 25px #262626;
+
+
+}
+.tab a { font-size: 14px;
+    line-height: 2em;
+    display: block;
+    padding: 0 17px;
+    outline: none;
+    margin: 0;
+    font-family:"Helvetica Neue", san-serif;
+    font-weight: 200;
+    color: #e67e22 ;
+
+}
+.tab a:hover {
+    background: #24688e;
+
+
+}
+.tab.active {
+    background: url('../images/escheresque.png')repeat;
+
+    position: relative;
+    top: 313px;
+}
+.tab a.active {
+    font-weight: bold;
+    margin: 0;
+
+}
+
+/**************************************************************/
+
+
+.tabe {
+    position: relative;
+    top: 313px;
+    z-index: 7;
+    right: 0;
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+    background: #2980b9;
+    width: 127.3px;
+    padding: 0;
+    margin-right: -10px;
+    box-shadow: 3px 10px 25px #262626;
+
+
+}
+.tabe a { font-size: 14px;
+    line-height: 2em;
+    display: block;
+    padding: 0 10px;
+    outline: none;
+    margin: 0;
+    font-family:"Helvetica Neue", san-serif;
+    font-weight: 200;
+    color: #e67e22 ;
+
+
+}
+.tabe a:hover {
+    background: #24688e;
+}
+.tabe.active {
+    background: #fff;
+
+    border-color: #666;
+    position: relative;
+    top: 313px;
+    background: url('../images/escheresque.png')repeat;
+
+}
+.tabe a.active {
+    font-weight: bold;
+    margin: 0;
+
+}
+/**************************************************************/
+
+.tabz {
+    position: relative;
+    top: 176px;
+    left: 646px;
+    z-index: 9;
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+    background: #2980b9;
+    width: 77.5px;
+    padding: 0;
+    margin-right: -10px;
+    box-shadow: 3px 10px 25px #262626;
+
+
+
+}
+.tabz a { font-size: 14px;
+    line-height: 2em;
+    display: block;
+    padding: 0 10px;
+    outline: none;
+    margin: 0;
+    color: #e67e22 ;
+    font-family:"Helvetica Neue", san-serif;
+
+
+
+}
+.tabz a:hover {
+    background: #24688e;
+}
+.tabz.active {
+    background: #fff;
+
+    border-color: #666;
+    position: relative;
+    top: 176px;
+    left: 646px;
+    background: url('../images/escheresque.png')repeat;
+
+}
+.tabz a.active {
+    font-weight: bold;
+    margin: 0;
+
+}
+
+/**************************************************************/
+
+.tabl {
+    position: relative;
+    top: 155px;
+    right:220px;
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+    width: 77.3px;
+    padding: 0;
+    margin-right: -10px;
+    background: #2980b9;
+    z-index: 9;
+
+
+    box-shadow: 3px 10px 25px #262626;
+
+
+}
+.tabl a { font-size: 14px;
+    line-height: 2em;
+    display: block;
+    padding: 0 10px;
+    outline: none;
+    margin: 0;
+    font-family:"Helvetica Neue", san-serif;
+    color: #e67e22 ;
+
+
+
+}
+.tabl a:hover {
+    background: #24688e;
+}
+.tabl.active {
+    background: #fff;
+
+    border-color: #666;
+    position: relative;
+    top: 155px;
+    right:220px;
+    background: url('../images/escheresque.png')repeat;
+
+}
+.tabl a.active {
+    font-weight: bold;
+    margin: 0;
+
+}
+
+/**************************************************************/
+
+
+
+.panel-container {
+    background: url('../images/escheresque.png')repeat;
+    height: 300px;
+    width: 220px;
+    margin-right: 70px;
+    float:left;
+    margin-left: 10px;
+    margin-top: -15px;
+    box-shadow: 10px 30px 25px #262626;
+
+
+
+
+}
+.panel-container-two {
+    background: url('../images/escheresque.png')repeat;
+    height: 300px;
+    width: 370px;
+    float:left;
+    position: relative;
+    top: -15px;
+    box-shadow: 10px 30px 25px #262626;
+
+
+
+
+
+
+}
+
+.panel-container-three {
+    height: 490px;
+    width: 220px;
+    margin-left: 140px;
+    float:left;
+    clear: right;
+    position: absolute;
+    top: 225px;
+    right: 140px;
+    background: url('../images/escheresque.png')repeat;
+    box-shadow: 10px 30px 25px #262626;
+
+
+
+
+
+}
+.panel-container-four {
+    background: url('../images/escheresque.png')repeat;
+    height: 155px;
+    width: 220px;
+    float:left;
+    clear:both;
+    margin-top:35px;
+    margin-left:10px;
+    position: relative;
+    top: -35px;
+    box-shadow: 10px 30px 25px #262626;
+
+
+
+
+
+
+}
+
+
+
+h2{
+
+    padding: 0;
+    margin: 0;
+    font:  16px/15px "Helvetica Neue", san-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.all{
+
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#tab-container.tab-container {
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    display:inline-block;
+    margin-right: 30px;
+
+
+
+}
+
+
+#tab-container-two.tab-container-two {
+    margin: 0;
+    padding: 0;
+    width: 368px;
+    display:inline-block;
+    margin-right: 30px;
+
+
+
+}
+
+#tab-container-three.tab-container-three {
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    display:inline-block;
+    margin-right: 10px;
+
+
+
+}
+
+#tab-container-three.tab-container-four {
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    display:inline-block;
+    margin-right: 70px;
+
+
+
+}
+
+hr{
+position: relative;
+    top: 30px;
+    border-width: 2px;
+}
+
+
+.title_one_One{
+
+    font:  18px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 55px;
+    color: #2980b9;
+}
+
+.title_two_Two{
+
+    font:  18px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 55px;
+    color: #2980b9;
+}
+
+.title_three_Three{
+
+    font:  18px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 55px;
+    color: #2980b9;
+}
+
+.title_four_Four{
+
+    font:  18px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 55px;
+    color: #2980b9;
+}
+
+.content_wrapper{
+    padding: 10px;
+    margin-top: 30px;
+
+}
+
+.content_wrapper_Four{
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+.content_wrapper_one_Two{
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.content_wrapper_one_Three{
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.form_one_Two{
+    overflow: scroll;
+
+
+}
+.form_one_Three{
+    overflow: scroll;
+
+
+}
+
+.task_Desc{
+
+    margin-top: 40px;
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #e67e22;
+
+
+
+}
+
+.task_Desc_Two{
+
+    margin-top: 40px;
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #e67e22;
+
+
+
+}
+
+.project_Desc{
+
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #2980b9;
+
+}
+
+.project_Desc_Two{
+
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #2980b9;
+
+}
+
+
+.project_Desc_three_Three{
+
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #2980b9;
+
+}
+.project_Desc_three_Three-three{
+
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #2980b9;
+
+}
+
+.project_Desc_four_Four{
+
+    list-style-type: none;
+    display: inline;
+    font:  14px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #2980b9;
+
+}
+
+.title_one_Two{
+
+    font:  18px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 46px;
+    color: #2980b9;
+}
+
+.title_one_Three{
+
+    font:  18px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 35px;
+    color: #2980b9;
+}
+
+.title_two_Three{
+
+    font:  18px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 35px;
+    color: #2980b9;
+}
+
+.title_four_Four{
+
+    font:  18px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 35px;
+    color: #2980b9;
+}
+
+.edit_This{
+
+    font:  17px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    color: #2980b9;
+    position: relative;
+
+    display: inline;
+    margin-bottom: 20px;
+    padding-top: 40px;
+
+
+
+
+}
+
+.edit_This_two_Two{
+
+    font:  17px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    color: #2980b9;
+    position: relative;
+
+    display: inline;
+    margin-bottom: 20px;
+    padding-top: 40px;
+
+
+
+
+}
+
+.edit_This_three_Three{
+
+    font:  17px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    color: #2980b9;
+    position: relative;
+
+    display: inline;
+    margin-bottom: 20px;
+    padding-top: 40px;
+
+
+
+
+}
+
+.edit_This_two_Three{
+
+    font:  17px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    color: #2980b9;
+    position: relative;
+
+    display: inline;
+    margin-bottom: 20px;
+    padding-top: 40px;
+
+
+
+
+}
+.edit_This_three_Three-three{
+
+    font:  17px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    color: #2980b9;
+    position: relative;
+
+    display: inline;
+    margin-bottom: 20px;
+    padding-top: 40px;
+
+
+
+
+}
+
+.edit_This_four_Four{
+
+    font:  14px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    color: #2980b9;
+    position: relative;
+
+    display: inline;
+    margin-bottom: 20px;
+    padding-top: 40px;
+
+
+
+
+}
+
+.edit_This_four_Four-four{
+
+    font:  14px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    color: #2980b9;
+    position: relative;
+
+    display: inline;
+    margin-bottom: 20px;
+    padding-top: 40px;
+
+
+
+
+}
+
+.task_Desc_Two{
+
+
+    margin-top: 40px;
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #e67e22;
+
+}
+
+.task_Desc_two_Two{
+
+
+    margin-top: 40px;
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #e67e22;
+
+}
+
+.task_Desc_Two_Three{
+
+
+    margin-top: 40px;
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #e67e22;
+
+}
+
+.task_Desc_three_Three{
+
+
+    margin-top: 40px;
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #e67e22;
+
+}
+
+.task_Desc_three_Three-three{
+
+
+    margin-top: 40px;
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #e67e22;
+
+}
+
+.task_Desc_Three{
+
+
+    margin-top: 40px;
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #e67e22;
+
+}
+
+.task_Desc_four_Four{
+
+
+    margin-top: 40px;
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #e67e22;
+
+}
+
+.task_Desc_four_Four-four{
+
+
+    margin-top: 40px;
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #e67e22;
+
+}
+.project_Desc_One{
+
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #2980b9;
+    margin-top: -40px;
+
+
+
+}
+
+.project_Desc_One_Two{
+
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #2980b9;
+    margin-top: 40px;
+
+
+
+}
+
+.project_Desc_two_Two{
+
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #2980b9;
+    margin-top: 40px;
+
+
+
+}
+.project_Desc_two_Three{
+
+    list-style-type: none;
+    display: inline;
+    font:  16px/25px "Helvetica Neue", san-serif;
+    font-weight: 100;
+    color: #2980b9;
+    margin-top: 40px;
+
+
+
+}
+
+.yes_Button{
+
+    display: block;
+}
+
+.no_Button{
+
+    display: block;
+}
+
+.yes_Button_Two{
+
+    display: block;
+}
+
+.no_Button_Two{
+
+    display: block;
+}
+
+.new_Line{
+
+    margin-top: -29px;
+}
+
+.yes_Delte{
+
+
+}
+
+.no_Delete{
+
+
+}
+
+
+.yes_Delte_two_Three{
+
+
+}
+
+.no_Delete_two_Three{
+
+
+}
+
+
+.yes_Delte_three_Three-three{
+
+
+}
+
+.no_Delete_three_Three-three{
+
+
+}
+
+
+.yes_Delte_four_Four-four{
+
+
+}
+
+.no_Delete_four_Four-four{
+
+
+}
+.yes_Button_three_Three{
+
+
+}
+
+.no_Button_three_Three{
+
+
+}
+
+li .yes_Button_four_Four{
+
+
+
+}
+
+li .no_Button_four_Four{
+
+
+
+}
+
+
+#box_Two{
+
+
+    width:366.8px;
+    height: 180px;
+    float: left;
+    margin-top: -26.8px;
+    margin-left: 25px;
+    box-shadow: 10px 30px 25px #262626;
+    background: url('../images/colorPencil.png');
+    background-position: center center;
+
+
+
+
+}
+
+.title_addProject{
+
+    font:  18px/15px "Helvetica Neue", san-serif;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    color: white;
+
+
+}
+
+.addProjectButton{
+
+    position: relative;
+    top: 70px;
+    left: 112px;
+
+
+}
+.addTextButton{
+
+    position: relative;
+    top: 20px;
+    left: 154px;
+    color: white;
+    font:  17px/15px "Helvetica Neue", san-serif;
+    font-weight: 100;
+}
+
+
+#addProR{
+
+    position: relative;
+    top:-19px;
+    right: -120px;
+    width: 220px;
+    height: 190px;
+    background: url('../images/button.png')no-repeat;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+
+
+}
+
+
+#addTaskL{
+
+    position: relative;
+    top:-199px;
+    right: 340px;
+    width: 220px;
+    height: 190px;
+    background: url('../images/button.png')no-repeat;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+
+
+}
+
+#addTextR{
+
+    position: relative;
+    top:10px;
+    right: -39px;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+
+
+
+}
+
+#addTextL{
+
+    position: relative;
+    top:9px;
+    right: -39px;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    font:  16px/15px "Helvetica Neue", san-serif;
+    color: white ;
+    font-weight: 100;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
